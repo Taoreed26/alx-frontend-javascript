@@ -6,6 +6,6 @@ export default class EVCar extends Car {
     this._range = range;
   }
 
-  // eslint-disable-next-line
+  // eslint disables the next line
     cloneCar() { return new Car[Symbol.species](); }
 }
